@@ -1,7 +1,26 @@
 aid: ivella
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ivella.png
 name: Ivella
-description: Ivella is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ivella was a consumer fintech company that built shared money-management and
+  multi-account banking tools aimed at couples and households, backed by the
+  fintech venture firm Anthemis. As of 2026 Ivella's products have been sunset
+  and the team has joined EarnIn to continue building. This API Evangelist
+  profile was surfaced as an Anthemis portfolio-company lead; the enrichment
+  pipeline found no public developer portal, API documentation, OpenAPI, or
+  other machine-readable API surface, and the company is no longer operating as
+  an independent product.
 url: https://raw.githubusercontent.com/api-evangelist/ivella/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,30 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: sunset
+x-status-note: Products sunset; team joined EarnIn. No public API surface found during enrichment.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Consumer Finance
+- Banking
+- Personal Finance
+- Venture Backed
+common:
+- type: Website
+  url: https://www.ivella.com
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
