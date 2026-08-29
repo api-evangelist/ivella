@@ -33,6 +33,8 @@ description: >-
   other machine-readable API surface, and the company is no longer operating as
   an independent product.
 url: https://raw.githubusercontent.com/api-evangelist/ivella/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
