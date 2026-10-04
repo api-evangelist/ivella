@@ -41,7 +41,7 @@ x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: sunset
+x-status: defunct
 x-status-note: Products sunset; team joined EarnIn. No public API surface found during enrichment.
 specificationVersion: '0.23'
 created: '2026-07-17'
@@ -49,11 +49,12 @@ modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Consumer Finance
 - Banking
 - Personal Finance
 - Venture Backed
+- Defunct
 tags_raw:
 - Company
 - Fintech
@@ -62,6 +63,8 @@ tags_raw:
 - Banking
 - Personal Finance
 - Venture Backed
+- Financial-Services
+- Defunct
 common:
 - type: Website
   url: https://www.ivella.com
@@ -76,3 +79,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status-source: https://www.ivella.com/
